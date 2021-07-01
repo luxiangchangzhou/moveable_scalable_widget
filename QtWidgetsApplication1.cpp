@@ -10,7 +10,7 @@ QtWidgetsApplication1::QtWidgetsApplication1(QWidget *parent)
 {
     ui.setupUi(this);
 
-	this->setWindowFlags(Qt::FramelessWindowHint);
+	setWindowFlags(Qt::FramelessWindowHint | windowFlags());
 	//this->setMinimumSize(45, 45);
 	this->setStyleSheet("background:#ff0000");
 	//this->setFixedWidth(500);
